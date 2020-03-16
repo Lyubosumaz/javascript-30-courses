@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    </head>
+
+    <body>
+        <div class="keys">
+            <div data-key="81" class="key">
+                <kbd>Q</kbd>
+                <span class="sound">rhythm</span>
+            </div>
+            <div data-key="87" class="key">
+                <kbd>W</kbd>
+                <span class="sound">faster</span>
+            </div>
+            <div data-key="69" class="key">
+                <kbd>E</kbd>
+                <span class="sound">big</span>
+            </div>
+        </div>
+
+        <audio data-key="81" src="sounds/rhythm.wav"></audio>
+        <audio data-key="87" src="sounds/faster_yes.wav"></audio>
+        <audio data-key="69" src="sounds/big_chungus.wav"></audio>
+
+        <script src="main.js"></script>
+    </body>
+</html>
